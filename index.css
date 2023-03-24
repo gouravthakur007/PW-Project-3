@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("/Projects/Project-5/Asets/BG.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-header {
+    padding: 10px 40px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.verical-line {
+    border: 1px solid #fff;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-nav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-nav img {
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-menu ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+
+.nav-menu ul li {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-btn {
+    font-size: 20px;
+}
+
+.hero-des-container {
+    width: 70%;
+    margin: 12% auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-heading,
+.hero-des,
+.main-btn {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-heading {
+    font-size: 40px;
+    padding: 0 150px;
+    line-height: 1.2;
+    
+}
+
+.hero-des {
+    font-size: 26px;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #b90ec5;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-btn button {
+    font-size: 20px;
+    margin-top: 40px;
+}
